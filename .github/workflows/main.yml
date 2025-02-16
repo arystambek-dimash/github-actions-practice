@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Print to console
         run: echo "Hello GitHub Actions"
+
+      - name: Print View Lines
+        run: |
+          echo First Line!
+          echo Second Line!
+        
